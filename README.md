@@ -18,53 +18,16 @@
   <li>SVHN</li>
  </ul>
 
-<table border="5" cellpadding="30" cellspacing="5" bgcolor="white" width="1000">
-
-	<caption>MY TABLE</caption>
-
-	<thead>
-	<tr>
-		<th colspan="4" align="center">Title</th>
-	</tr>
-
-	<tr>
-		<th colspan="3" align="left">Sub title1</th>
-		<th colspan="1" align="right">Sub title2</th>
-	</tr>
-	</thead>
-
-	<tbody>
-	<tr>
-		<td rowspan="3" colspan="2" align="left">Data1</td>
-		<td rowspan="2" colspan="1" align="left">Data2</td>
-		<td>
-			<!nest another table in the cell>
-			<table border="1">
-				<tr>
-					<td>Data3_1</td>
-					<td>Data3_2</td>
-					<td>Data3_3</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-
-	<tr>
-		<td align="right">Data4</td>
-	</tr>
-
-	<tr>
-		<td align="left">Data5</td>
-		<td bgcolor="red">&nbsp;</td>
-	</tr>
-	</tbody>
-
-	<tfoot>
-	<tr>
-		<td colspan="4">SUM</td>
-	</tr>
-	</tfoots>
-
+<table frame="box">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
 </table>
+<hr/>
 
 <h3> Conclusion </h3>
